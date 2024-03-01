@@ -1,6 +1,6 @@
 package phase2;
 /**
- * @author Varun Iyer
+ * @author Martin Kitonga
  * @version 2.1
  * @param date - accepts the date of a current entry
  * @param item - accepts the current item name
