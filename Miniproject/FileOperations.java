@@ -12,7 +12,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 /**
- * @author Varun Iyer
+ * @author Martin Kitonga
  * @version 2.1
  * Deals with all the File related operation
  */
