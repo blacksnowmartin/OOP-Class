@@ -3,7 +3,7 @@ package phase1;
 import java.util.StringTokenizer;
 
 /**
- * @author Varun Iyer
+ * @author Martin Kitonga
  * @version 1.1
  * @param budget - stores the budget of the month
  * @param expense - stores the expenses done till date, in that particular month
