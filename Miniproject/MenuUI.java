@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * @author Varun Iyer
+ * @author Martin Kitonga
  * @version 2.1
  * Main class accesses the Data class, Cost Manager, and the FileManager
  * @param file - an object of FileManager, which deals with all the file managing operations.
