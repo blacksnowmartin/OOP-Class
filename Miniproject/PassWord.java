@@ -1,7 +1,7 @@
 package phase2;
 
 /**
- * @author Varun Iyer
+ * @author Martin Kitonga
  * @version 2.1
  * PassWord class deals with methods to keep password
  * Accesses methods from the FileOperations Class to read and write the password from the file password.txt
