@@ -1,6 +1,6 @@
 
 /**
- * @author Varun Iyer
+ * @author Martin Kitonga
  * @version 2.1
  * @param month,year - to open the file holding the data of the present month and year
  * The class opens the file and does all the file manipulation work*/
