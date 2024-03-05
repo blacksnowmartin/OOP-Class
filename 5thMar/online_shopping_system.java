@@ -122,7 +122,7 @@ class Administrator extends User {
 public class OnlineShoppingSystem {
     public static void main(String[] args) {
         // Example usage
-        Customer customer = new Customer("John Doe", "john@example.com", "johndoe", "password");
+        Customer customer = new Customer("John Kamau", "john@example.com", "johnk", "password");
         Item item1 = new Item("Product 1", 19.99, "Electronics");
         Item item2 = new Item("Product 2", 29.99, "Clothing");
 
