@@ -1,22 +1,24 @@
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
 
-public class SOS extends JFrame {
+
+public class SOS extends JFrame{
     public SOS(String title){
-        int width;
-        int height;
-        setSize(width:200,height:600);
-        setTitle(title);
-        JMenuBar mymenuBar=new JMenuBar();
-        JMenu filemenu= new JMenu(s:"File");
-        mymenuBar.addd(filemenu)
-
-
+       setTitle(title);
+       setSize(600, 600);
+       JMenuBar menuBar=new JMenuBar();
+       JMenu filMenu=new JMenu("File");
+       menuBar.add(filMenu);
+       setJMenuBar(menuBar);
+       
+       
     }
     public static void main(String[] args) {
-        SOS myWindow= new SOS();
-
-        myWindow.setVisible(b:true);
-
+        //create an instance of SOS
+        SOS myWing=new SOS("University Management System");
+        myWing.setVisible(true);
+       
     }
 
 }
