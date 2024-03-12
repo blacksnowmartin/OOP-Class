@@ -1,17 +1,21 @@
 import javax.swing.JFrame;
 
 public class SOS extends JFrame {
-    public SOS(){
-        setSize
+    public SOS(String title){
+        int width;
+        int height;
+        setSize(width:200,height:600);
+        setTitle(title);
+        JMenuBar mymenuBar=new JMenuBar();
+        JMenu filemenu= new JMenu(s:"File");
+        mymenuBar.addd(filemenu)
+
+
     }
     public static void main(String[] args) {
         SOS myWindow= new SOS();
-        int width;
-        int height;
-        myWindow.setSize(width:200,height:600);
-        boolean b;
+
         myWindow.setVisible(b:true);
-        myWindow.setTitle(title:"SchoolOnlineSystem");
 
     }
 
