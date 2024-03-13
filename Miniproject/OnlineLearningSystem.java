@@ -13,12 +13,21 @@ public class OnlineLearningSystem extends JFrame {
 
         JTextArea courseListTextArea = new JTextArea();
         courseListTextArea.setEditable(false);
-        courseListTextArea.setText("1. Java Programming\n2. Web Development\n3. Data Science");
+        courseListTextArea.setText("1. Java Programming\n2. Web Development\n3. Data Science\n4. Artificial Intelligence");
         JScrollPane scrollPane = new JScrollPane(courseListTextArea);
         add(scrollPane);
 
         JButton enrollButton = new JButton("Enroll");
         add(enrollButton);
+
+        JButton resultsButton = new JButton("Results");
+        add(resultsButton);
+
+        JButton loginButton = new JButton("Login");
+        add(loginButton);
+
+        JButton signupButton = new JButton("Sign Up");
+        add(signupButton);
         
         // Set layout for the window
         setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
