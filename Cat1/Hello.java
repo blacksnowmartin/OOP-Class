@@ -6,7 +6,7 @@ public class Hello {
 }
 
 
-/* Author Martin Kitonga
+/* Author Martin Kitonga (Blacksnow Martin)
  * 
  */
 
